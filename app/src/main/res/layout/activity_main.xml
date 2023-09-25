@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:id="@+id/drawerLayout"
     android:background="#E8D0D0"
     tools:context=".MainActivity">
@@ -35,20 +34,15 @@
 
     </LinearLayout>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <com.google.android.material.navigation.NavigationView
         android:id="@+id/navView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         app:itemIconTint="#AF2D2D"
         android:layout_gravity="start"
         app:menu="@menu/menu"
         app:itemTextColor="#200606"
         app:itemRippleColor="#111A4A"
         android:layout_height="match_parent" />
-
-
-
-
-
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

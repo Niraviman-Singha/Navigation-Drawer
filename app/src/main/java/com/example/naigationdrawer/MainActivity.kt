@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         setCurrentFragment(homeFragment)
 
-        binding.navView.setOnNavigationItemSelectedListener {
+        binding.navView.setNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.home ->{
                     setCurrentFragment(homeFragment)
